@@ -1,8 +1,8 @@
 .introduce {
   background: linear-gradient(to bottom, #7eb252 0%, #0099ff 100%);
+  margin-bottom: 20px;
 }
 .introduce__wrapper {
-  margin-bottom: 20px;
   padding-bottom: 20px;
 
   @include container;

@@ -31,7 +31,15 @@
   line-height: 30px;
   color: $font-color-main;
 
-  border: none;
+  border: 2px solid #7eb252;
+
+  &:hover {
+    border: 2px solid #638943;
+  }
+
+  &:focus {
+    border: 2px solid #638943;
+  }
 }
 
 .callback__submit-wrapper {
@@ -52,4 +60,16 @@
   background-color: #7eb252;
   border: 3px solid #7eb252;
   cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #638943;
+    border: 3px solid #638943;
+  }
+
+  &:active {
+    background-color: #638943;
+    border: 3px solid #638943;
+    color: rgba(255, 255, 255, 0.3)
+  }
 }
