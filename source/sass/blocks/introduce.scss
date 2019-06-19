@@ -1,0 +1,6 @@
+.introduce {
+  background: linear-gradient(to bottom, #0099ff 0%, #339966 100%);
+}
+.introduce__wrapper {
+  @include container;
+}
