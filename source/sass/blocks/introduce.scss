@@ -2,13 +2,25 @@
   background: linear-gradient(to bottom, #7eb252 0%, #0099ff 100%);
 }
 .introduce__wrapper {
-  @include container;
   margin-bottom: 20px;
   padding-bottom: 20px;
+
+  @include container;
+}
+
+.introduce__description-wrapper {
+  margin-bottom: 30px;
+  padding-top: 20px;
 }
 
 .introduce__description {
-  font-family: $font-family-additional;
-  line-height: 18px;
   margin-top: 0;
+  margin-bottom: 0;
+
+  line-height: 18px;
+  font-family: $font-family-additional;
+}
+
+.introduce__slogan {
+  margin-bottom: 10px;
 }

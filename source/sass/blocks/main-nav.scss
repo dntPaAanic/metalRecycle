@@ -5,6 +5,7 @@
   position: relative;
 
   padding-top: 15px;
+  padding-bottom: 15px;
 
   @include container;
 }
@@ -70,16 +71,17 @@
 }
 
 .main-nav__phone {
-  @include container;
-  text-align: center;
   padding-top: 20px;
+
+  text-align: center;
+
+  @include container;
 }
 
 .main-nav__phone a {
   font-size: 22px;
-  text-decoration: none;
   color: $font-color-header;
-
+  text-decoration: none;
 }
 
 @media (max-width: $mobile-width-only) {

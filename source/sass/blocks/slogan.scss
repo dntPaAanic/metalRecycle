@@ -1,0 +1,28 @@
+.slogan {
+  margin-bottom: 30px;
+}
+.slogan__items {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.slogan__item {
+  position: relative;
+
+  padding-left: 15px;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 2px;
+    height: 100%;
+
+    background-color: #33ccff;
+  }
+}

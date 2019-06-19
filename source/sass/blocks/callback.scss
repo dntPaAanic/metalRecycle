@@ -3,17 +3,19 @@
 }
 
 .callback__items {
-  list-style: none;
   margin: 0;
   padding: 0;
+
+  list-style: none;
 }
 
 .callback__label {
   display: block;
-  padding-left: 25px;
-  text-transform: uppercase;
   margin-bottom: 5px;
+  padding-left: 25px;
+
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 .callback__input {
@@ -24,27 +26,30 @@
   padding-right: 15px;
   padding-bottom: 10px;
   padding-left: 10px;
+
   font-size: 18px;
   line-height: 30px;
-  border: none;
   color: $font-color-main;
+
+  border: none;
 }
 
 .callback__submit-wrapper {
   text-align: center;
 }
 .callback__submit {
+  width: 100%;
   padding-top: 10px;
   padding-right: 15px;
   padding-bottom: 10px;
   padding-left: 10px;
+
   font-size: 18px;
   line-height: 30px;
-  text-transform: uppercase;
-  cursor: pointer;
   color: #ffffff;
+  text-transform: uppercase;
+
   background-color: #7eb252;
   border: 3px solid #7eb252;
-  width: 100%;
+  cursor: pointer;
 }
-
