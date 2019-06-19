@@ -1,3 +1,23 @@
 .callback__items {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
+
+.callback__label {
+  display: block;
+}
+
+.callback__input {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-size: 18px;
+  line-height: 30px;
+  border: none;
+}
+

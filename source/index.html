@@ -49,7 +49,7 @@
   <section class="introduce">
     <div class="introduce__wrapper">
       <div class="introduce__description-wrapper">
-        <h2 class="introduce__title">
+        <h2 class="header-text introduce__title">
           Сдать металлолом в Москве
         </h2>
         <p class="introduce__description">
@@ -57,18 +57,19 @@
       </div>
       <form action="" class="introduce__form" method="post">
         <fieldset class="introduce__field callback">
+          <legend class="callback__title callback__title--close">Узнайте подробнее</legend>
           <ul class="callback__items">
             <li class="callback__item">
-              <label class="callback__label" for="name" >Ваше имя</label>
-              <input  class="callback__input" id="name" type="text" placeholder="Укажите ваше имя" pattern="\S+[A-Za-zА-Яа-яЁё]">
+              <label class="callback__label callback__label--caption" for="name" >Ваше имя</label>
+              <input  class="callback__input callback__input--text" id="name" type="text" placeholder="Укажите ваше имя" pattern="\S+[A-Za-zА-Яа-яЁё]">
             </li>
             <li class="callback__item">
-              <label class="callback__label" for="phone-number" >Номер телефона</label>
-              <input class="callback__input" id="phone-number" type="tel" placeholder="Номер, пожалуйста">
+              <label class="callback__label callback__label--caption" for="phone-number" >Номер телефона</label>
+              <input class="callback__input callback__input--tel" id="phone-number" type="tel" placeholder="Номер, пожалуйста">
             </li>
             <li class="callback__item">
-              <label class="callback__label" for="weight" >Вес лома</label>
-              <input class="callback__input" id="weight" type="text" placeholder="Вес лома">
+              <label class="callback__label callback__label--caption" for="weight" >Вес лома</label>
+              <input class="callback__input callback__input--text" id="weight" type="text" placeholder="Вес лома">
             </li>
           </ul>
         </fieldset>
@@ -78,7 +79,7 @@
 
   <section class="offer">
     <div class="offer__wrapper">
-      <h2 class="offer__title">Стоимость приема металлолома</h2>
+      <h2 class="header-text offer__title">Стоимость приема металлолома</h2>
       <table class="offer__table">
         <caption class="visually-hidden"> Стоимость приема металлолома</caption>
         <tr class="offer__table-header">
