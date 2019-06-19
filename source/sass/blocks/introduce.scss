@@ -1,10 +1,14 @@
 .introduce {
-  background: linear-gradient(to bottom, #339966 0%, #0099ff 100%);
+  background: linear-gradient(to bottom, #7eb252 0%, #0099ff 100%);
 }
 .introduce__wrapper {
   @include container;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .introduce__description {
   font-family: $font-family-additional;
+  line-height: 18px;
+  margin-top: 0;
 }

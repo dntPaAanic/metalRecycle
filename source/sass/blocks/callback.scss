@@ -1,3 +1,7 @@
+.callback__title--close {
+  display: none;
+}
+
 .callback__items {
   list-style: none;
   margin: 0;
@@ -6,6 +10,10 @@
 
 .callback__label {
   display: block;
+  padding-left: 25px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 14px;
 }
 
 .callback__input {
@@ -19,5 +27,24 @@
   font-size: 18px;
   line-height: 30px;
   border: none;
+  color: $font-color-main;
+}
+
+.callback__submit-wrapper {
+  text-align: center;
+}
+.callback__submit {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #7eb252;
+  border: 3px solid #7eb252;
+  width: 100%;
 }
 
