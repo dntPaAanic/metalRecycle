@@ -1,0 +1,31 @@
+.offer__wrapper {
+  @include container;
+}
+
+.offer__table {
+  margin: 0 auto;
+  text-align: center;
+}
+.offer__title {
+  font-size: 32px;
+  color: $font-color-header;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.offer__header {
+  font-size: 24px;
+  color: $font-color-header;
+}
+
+.offer__item {
+  font-size: 18px;
+}
+
+.offer__cost {
+  font-size: 18px;
+}
+
