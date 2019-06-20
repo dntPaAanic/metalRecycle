@@ -32,3 +32,25 @@
     color: rgba(17, 17, 17, 0.3);
   }
 }
+
+@media (min-width: $tablet-width) {
+  .site-list {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+  }
+
+  .site-list a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #222222;
+    text-transform: uppercase;
+
+    border: none;
+  }
+
+  .site-list__item {
+    margin-left: 38px;
+  }
+}

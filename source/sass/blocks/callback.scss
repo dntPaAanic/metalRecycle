@@ -73,3 +73,10 @@
     color: rgba(255, 255, 255, 0.3)
   }
 }
+
+@media (min-width: $tablet-width) {
+  .callback {
+    width: 250px;
+    margin-left: 40px;
+  }
+}

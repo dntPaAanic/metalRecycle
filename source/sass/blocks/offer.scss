@@ -14,12 +14,9 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
+  padding-bottom: 5px;
   color: $font-color-header;
   border-bottom: 2px solid #7eb252;
-}
-
-.offer__table-row {
-  border-bottom: 1px solid red;
 }
 
 .offer__item {
@@ -27,4 +24,10 @@
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid #7eb252;
+}
+
+@media (min-width: $tablet-width) {
+  .offer__table {
+    width: 500px;
+  }
 }

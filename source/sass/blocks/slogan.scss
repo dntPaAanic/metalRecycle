@@ -26,3 +26,14 @@
     background-color: #33ccff;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .slogan {
+    margin-bottom: 0;
+  }
+
+  .slogan__item {
+    font-size: 22px;
+    line-height: 22px;
+  }
+}

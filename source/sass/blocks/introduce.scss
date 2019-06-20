@@ -15,7 +15,7 @@
 
 .introduce__description {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 
   line-height: 18px;
   font-family: $font-family-additional;
@@ -23,4 +23,28 @@
 
 .introduce__slogan {
   margin-bottom: 10px;
+}
+
+@media (min-width: $tablet-width) {
+  .introduce__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .introduce__description-wrapper {
+    width: 400px;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+
+  .introduce__description {
+    margin-bottom: 180px;
+  }
+
+  .introduce__form {
+    width: 300px;
+  }
 }

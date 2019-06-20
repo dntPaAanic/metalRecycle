@@ -9,36 +9,38 @@
 
 <header class="page-header">
   <nav class="main-nav main-nav--closed main-nav--nojs">
-    <div class="main-nav__wrapper">
-      <div class="page-header__logo-wrapper">
-        <a class="page-header__logo">
-          <img class="page-header__logo-mobile-image" src="http://placehold.it/192x38" width="192" height="38" alt="Cat Energy">
-          <img class="page-header__logo-tablet-image" src="img/http://placehold.it/173x58" width="173" height="58" alt="Cat Energy">
-          <img class="page-header__logo-desktop-image" src="img/http://placehold.it/202x59" width="202" height="59" alt="Cat Energy">
+    <div class="main-nav__main-wrapper">
+      <div class="main-nav__wrapper">
+        <div class="page-header__logo-wrapper">
+          <a class="page-header__logo">
+            <img class="page-header__logo-mobile-image" src="http://placehold.it/192x38" width="192" height="38" alt="Cat Energy">
+            <img class="page-header__logo-tablet-image" src="img/http://placehold.it/173x58" width="173" height="58" alt="Cat Energy">
+            <img class="page-header__logo-desktop-image" src="img/http://placehold.it/202x59" width="202" height="59" alt="Cat Energy">
+          </a>
+        </div>
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню </span>
+        </button>
+      </div>
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item site-list__item--active">
+          <a>Главная</a>
+        </li>
+        <li class="site-list__item">
+          <a href="#offer">Цены</a>
+        </li>
+        <li class="site-list__item">
+          <a href="#">О компании</a>
+        </li>
+        <li class="site-list__item">
+          <a href="#">Контакты</a>
+        </li>
+      </ul>
+      <div class="main-nav__phone">
+        <a class="main-nav__phone-number" href="tel:+71231234567">
+          +7 (123) 1234567
         </a>
       </div>
-      <button class="main-nav__toggle" type="button">
-        <span class="visually-hidden">Открыть меню </span>
-      </button>
-    </div>
-    <ul class="main-nav__list site-list">
-      <li class="site-list__item site-list__item--active">
-        <a>Главная</a>
-      </li>
-      <li class="site-list__item">
-        <a href="#offer">Цены</a>
-      </li>
-      <li class="site-list__item">
-        <a href="#">О компании</a>
-      </li>
-      <li class="site-list__item">
-        <a href="#">Контакты</a>
-      </li>
-    </ul>
-    <div class="main-nav__phone">
-      <a class="main-nav__phone-number" href="tel:+71231234567">
-        +7 (123) 1234567
-      </a>
     </div>
   </nav>
 </header>
@@ -54,14 +56,15 @@
         </h2>
         <p class="introduce__description">
           Повседневная практика показывает, что укрепление и развитие структуры играет важную роль в формировании форм развития. Повседневная практика показывает, что постоянное информационно-пропагандистское обеспечение нашей деятельности играет важную роль в формировании систем массового участия.</p>
+        <div class="introduce__slogan slogan">
+          <ul class="slogan__items">
+            <li class="slogan__item">Текст</li>
+            <li class="slogan__item">Текст</li>
+            <li class="slogan__item">Текст</li>
+          </ul>
+        </div>
       </div>
-      <div class="introduce__slogan slogan">
-        <ul class="slogan__items">
-          <li class="slogan__item">Долго</li>
-          <li class="slogan__item">Дорого</li>
-          <li class="slogan__item">Охуенно</li>
-        </ul>
-      </div>
+
       <form action="" class="introduce__form" method="post">
         <fieldset class="introduce__field callback">
           <legend class="callback__title callback__title--close">Узнайте подробнее</legend>
@@ -130,7 +133,12 @@
         </tr>
       </table>
     </div>
+  </section>
 
+  <section class="example">
+    <div class="example__wrapper">
+
+    </div>
   </section>
 </main>
 <script src="js/script.min.js"></script>

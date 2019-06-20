@@ -98,6 +98,17 @@
 }
 
 @media (min-width: $tablet-width) {
+  .main-nav__main-wrapper {
+    @include container;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .main-nav__wrapper {
+    width: 200px;
+  }
+
+
   .main-nav__toggle {
     display: none;
   }
