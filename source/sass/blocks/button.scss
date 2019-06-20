@@ -19,7 +19,7 @@
 
   &:hover {
     background-color: $background-button-color-hover-active;
-    border: 3px solid #638943;
+    border: 3px solid $background-button-color-hover-active;
   }
 
   &:active {

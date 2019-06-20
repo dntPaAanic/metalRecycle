@@ -13,6 +13,7 @@
   display: block;
   margin-bottom: 5px;
   padding-left: 25px;
+  color: #ffffff;
 
   font-size: 14px;
   text-transform: uppercase;
@@ -31,14 +32,14 @@
   line-height: 30px;
   color: $font-color-main;
 
-  border: 2px solid #7eb252;
+  border: 2px solid #607D8B;
 
   &:hover {
-    border: 2px solid #638943;
+    border: 2px solid $background-button-color-hover-active;
   }
 
   &:focus {
-    border: 2px solid #638943;
+    border: 2px solid $background-button-color-hover-active;
   }
 }
 
