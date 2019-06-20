@@ -45,34 +45,6 @@
 .callback__submit-wrapper {
   text-align: center;
 }
-.callback__submit {
-  width: 100%;
-  padding-top: 10px;
-  padding-right: 15px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-
-  font-size: 18px;
-  line-height: 30px;
-  color: #ffffff;
-  text-transform: uppercase;
-
-  background-color: $background-button-color;
-  border: 3px solid $background-button-color;
-  cursor: pointer;
-  transition: 0.3s;
-
-  &:hover {
-    background-color: $background-button-color-hover-active;
-    border: 3px solid #638943;
-  }
-
-  &:active {
-    background-color: $background-button-color-hover-active;
-    border: 3px solid $background-button-color-hover-active;
-    color: rgba(255, 255, 255, 0.3)
-  }
-}
 
 @media (min-width: $tablet-width) {
   .callback {

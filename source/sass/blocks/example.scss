@@ -24,6 +24,7 @@
 .example__description {
   font-family: $font-family-additional;
   margin-bottom: 0;
+  padding-bottom: 20px;
 }
 
 @media (min-width: $tablet-width) {
@@ -37,5 +38,25 @@
   .example__image {
     width: 300px;
     height: 300px;
+  }
+
+  .example__item--big {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .example__caption--big {
+   width: 365px;
+  }
+
+  .example__description--big {
+    padding-bottom: 45px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .example__caption--big {
+    width: 630px;
   }
 }
