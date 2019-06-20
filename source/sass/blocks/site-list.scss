@@ -36,8 +36,8 @@
 @media (min-width: $tablet-width) {
   .site-list {
     display: flex;
-    justify-content: flex-end;
     flex-grow: 1;
+    justify-content: flex-end;
   }
 
   .site-list a {

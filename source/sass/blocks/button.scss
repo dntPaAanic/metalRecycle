@@ -4,17 +4,18 @@
   padding-right: 15px;
   padding-bottom: 10px;
   padding-left: 10px;
-  text-decoration: none;
 
   font-size: 18px;
   line-height: 30px;
-  color: #ffffff;
   font-family: $font-family-main;
+  color: #ffffff;
   text-transform: uppercase;
+  text-decoration: none;
 
   background-color: $background-button-color;
   border: 3px solid $background-button-color;
   cursor: pointer;
+
   transition: 0.3s;
 
   &:hover {
@@ -23,9 +24,10 @@
   }
 
   &:active {
+    color: rgba(255, 255, 255, 0.3);
+
     background-color: $background-button-color-hover-active;
     border: 3px solid $background-button-color-hover-active;
-    color: rgba(255, 255, 255, 0.3)
   }
 }
 
@@ -34,11 +36,12 @@
 }
 
 .button--example {
-  width: 100px;
   display: inline-block;
-  text-align: center;
+  width: 100px;
   padding-top: 5px;
   padding-bottom: 5px;
+
+  text-align: center;
 }
 
 @media (min-width: $tablet-width) {

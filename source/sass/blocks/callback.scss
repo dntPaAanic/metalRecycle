@@ -13,9 +13,9 @@
   display: block;
   margin-bottom: 5px;
   padding-left: 25px;
-  color: #ffffff;
 
   font-size: 14px;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -32,7 +32,7 @@
   line-height: 30px;
   color: $font-color-main;
 
-  border: 2px solid #607D8B;
+  border: 2px solid #607d8b;
 
   &:hover {
     border: 2px solid $background-button-color-hover-active;

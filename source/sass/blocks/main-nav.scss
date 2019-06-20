@@ -71,8 +71,9 @@
 }
 
 .main-nav__phone {
-  text-align: center;
   padding-top: 15px;
+
+  text-align: center;
 
   @include container;
 }
@@ -99,10 +100,11 @@
 
 @media (min-width: $tablet-width) {
   .main-nav__main-wrapper {
-    @include container;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
+
+    @include container;
   }
   .main-nav__wrapper {
     width: 200px;

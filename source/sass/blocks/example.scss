@@ -8,31 +8,34 @@
 
 .example__image {
   display: block;
+
   border: none;
 }
 
 .example__caption {
-  padding: 20px;
-  width: 300px;
-  background-color: $background-color-lightgrey;
   box-sizing: border-box;
+  width: 300px;
+  padding: 20px;
+
+  background-color: $background-color-lightgrey;
 }
 
 .example__title {
   font-size: 18px;
 }
 .example__description {
-  font-family: $font-family-additional;
   margin-bottom: 0;
   padding-bottom: 20px;
+
+  font-family: $font-family-additional;
 }
 
 @media (min-width: $tablet-width) {
   .example__wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   .example__image {
@@ -47,7 +50,7 @@
   }
 
   .example__caption--big {
-   width: 365px;
+    width: 365px;
   }
 
   .example__description--big {
