@@ -50,8 +50,20 @@
   font-size: 18px;
 }
 
+.offer__item--cash-disabled {
+  display: none;
+}
+
+.offer__item--card-disabled {
+  display: none;
+}
+
+.offer__item--corporate-disabled {
+  display: none;
+}
+
 .offer__item--none-border {
-  border-bottom: 0px;
+  border-bottom: none;
 }
 
 @media (min-width: $tablet-width) {

@@ -39,4 +39,22 @@
 
   window.addEventListener('scroll', trackScroll);
   goTopBtn.addEventListener('click', backToTop);
+
+
+
+  //Таблица
+  var cashId = document.querySelector('#cash');
+  var cardId = document.querySelector('#card');
+  var cashElements = document.querySelectorAll('.offer__item--cash');
+  var cardElements = document.querySelectorAll('.offer__item--card');
+  var corporateElements = document.querySelectorAll('.offer__item--corporate');
+if (cashId) {
+for (var i = 0; i < cardElements.length; i++) {
+var cashElement = cashElements[i];
+cashElement.classList.add('offer__item--card-disabled');
+}
+
+
+}
+
 })();
