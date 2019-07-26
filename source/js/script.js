@@ -43,18 +43,48 @@
 
 
   //Таблица
-  var cashId = document.querySelector('#cash');
-  var cardId = document.querySelector('#card');
+  var offerPayment = document.querySelector('#offer__payment');
   var cashElements = document.querySelectorAll('.offer__item--cash');
   var cardElements = document.querySelectorAll('.offer__item--card');
   var corporateElements = document.querySelectorAll('.offer__item--corporate');
-if (cashId) {
-for (var i = 0; i < cardElements.length; i++) {
-var cashElement = cashElements[i];
-cashElement.classList.add('offer__item--card-disabled');
-}
 
+  var disabledTable = function (payment) {
+    for (var i = 0; i < payment.length; i++) {
+      var payElement = payment[i];
+      payElement.classList.remove('offer__item--active');
+      payElement.classList.add('offer__item--disabled');
+    }
+  }
 
-}
+  var activeTable = function (payment) {
+    for (var i = 0; i < payment.length; i++) {
+      var payElement = payment[i];
+      payElement.classList.remove('offer__item--disabled');
+      payElement.classList.add('offer__item--active');
+    }
+  }
 
+  var option = function() {
+    switch(offerPayment.value) {
+      case 'cash':
+        activeTable(cashElements);
+        disabledTable(cardElements);
+        disabledTable(corporateElements);
+        break;
+
+      case 'card':
+        disabledTable(cashElements);
+        activeTable(cardElements);
+        disabledTable(corporateElements);
+        break;
+
+      case 'corporate':
+        disabledTable(cardElements);
+        disabledTable(cashElements);
+        activeTable(corporateElements);
+        break;
+    }
+  }
+  option();
+  offerPayment.addEventListener('change', function() {option();})
 })();
