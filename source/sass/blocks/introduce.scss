@@ -1,7 +1,13 @@
 .introduce {
   margin-bottom: 20px;
+  background-color: #db6c1d;
 
-  background: linear-gradient(to bottom, #455a64 0%, #607d8b 100%);
+  background-image: linear-gradient(
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ), url(../img/main-bckgrnd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .introduce__wrapper {
   padding-bottom: 20px;
