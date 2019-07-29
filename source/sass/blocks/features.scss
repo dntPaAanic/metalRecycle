@@ -1,0 +1,130 @@
+.features__wrapper {
+  padding-bottom: 22px;
+
+  @include container;
+}
+
+.features__title {
+  margin: 0;
+  padding-top: 19px;
+  padding-bottom: 26px;
+
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 60px;
+}
+
+.features__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.features__item {
+  position: relative;
+
+  display: flex;
+  margin-bottom: 20px;
+
+
+  &::before {
+    content: "";
+
+    display: block;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+
+    background-color: $background-color-secondary;
+    background-position: center center;
+    background-size: 50px 50px;
+  }
+}
+
+.features__item--leaf {
+  &::before {
+    background-image: url("../img/work1-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.features__item--powder {
+  &::before {
+    background-image: url("../img/work1-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.features__item--dining {
+  &::before {
+    background-image: url("../img/work1-3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.features__item--clock {
+  &::before {
+    background-image: url("../img/work1-4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.features__description {
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 3px;
+  padding-bottom: 0;
+
+  line-height: 18px;
+}
+
+@media (min-width: $tablet-width) {
+  .features {
+    counter-reset: section;
+    border-bottom: 1px solid #f2f2f2;
+  }
+
+  .features__item {
+    display: block;
+    max-width: 250px;
+    margin-bottom: 80px;
+    padding-right: 30px;
+
+    font-size: 16px;
+    line-height: 24px;
+
+    &::before {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 35px;
+    }
+
+    &::after {
+      content: counter(section);
+      position: absolute;
+      top: 85px;
+      left: 100px;
+      z-index: -1;
+
+      font-size: 280px;
+      color: #f2f2f2;
+
+      counter-increment: section;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .features {
+    border: none;
+  }
+}
