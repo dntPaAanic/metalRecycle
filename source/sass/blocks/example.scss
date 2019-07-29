@@ -2,22 +2,31 @@
   @include container;
 }
 
+.example__item-wrapper {
+  list-style: none;
+}
+
 .example__item {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  border: 1px solid $background-color-secondary;
 }
 
 .example__image {
   display: block;
+  margin: 0 auto;
+  width: 161px;
+  height: 120px;
+
 
   border: none;
 }
 
 .example__caption {
   box-sizing: border-box;
-  width: 300px;
   padding: 20px;
 
-  background-color: $background-color-lightgrey;
+  background-color: $background-color-secondary;
 }
 
 .example__title {
@@ -31,7 +40,7 @@
 }
 
 @media (min-width: $tablet-width) {
-  .example__wrapper {
+  .example__item-wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -39,8 +48,7 @@
   }
 
   .example__image {
-    width: 300px;
-    height: 300px;
+
   }
 
   .example__item--big {

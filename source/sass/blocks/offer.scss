@@ -55,7 +55,7 @@
 }
 
 .offer__item--active {
-  display: block;
+  display: table-cell;
 }
 
 .offer__item--none-border {
@@ -66,4 +66,14 @@
   .offer__table {
     width: 500px;
   }
+
+  .offer__item--disabled {
+    display: table-cell;
+  }
+
+  .offer__item--active {
+    display: table-cell;
+  }
+
+
 }
