@@ -1,13 +1,15 @@
 .scrap-point {
   margin-bottom: 40px;
 }
+
 .scrap-point__wrapper {
   @include container;
 }
 
 .scrap-point_description {
-  line-height: 24px;
   text-align: justify;
+
+  line-height: 24px;
 }
 
 .scrap-point__services {
