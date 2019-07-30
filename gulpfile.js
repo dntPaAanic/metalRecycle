@@ -68,6 +68,7 @@ gulp.task("html", function () {
 gulp.task("minjs", function () {
   return gulp.src("source/js/**/*.js")
     .pipe(uglify())
+    .pipe(rename("micromodal.min.js"))
     .pipe(rename("script.min.js"))
     .pipe(gulp.dest("build/js"));
 });
