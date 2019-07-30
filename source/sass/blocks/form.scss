@@ -1,0 +1,7 @@
+.form__wrapper {
+  @include container;
+}
+
+.form__callback-caption {
+  display: none;
+}

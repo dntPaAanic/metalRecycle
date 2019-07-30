@@ -74,10 +74,6 @@
               <label class="callback__label callback__label--caption" for="phone-number" >Номер телефона</label>
               <input class="callback__input callback__input--tel" id="phone-number" type="tel" placeholder="Номер, пожалуйста">
             </li>
-            <li class="callback__item">
-              <label class="callback__label callback__label--caption" for="weight" >Вес лома</label>
-              <input class="callback__input callback__input--text" id="weight" type="text" placeholder="Вес лома">
-            </li>
           </ul>
           <div class="callback__submit-wrapper">
             <input class="button button--callback-submit" type="submit"  value="Обратный звонок">
@@ -451,6 +447,30 @@
     <div class="scrap-point__image-wrapper">
       <img class="scrap-point__image" src="img/met-image.jpg" alt="Металлолом">
     </div>
+  </div>
+</section>
+
+<section class="form">
+  <div class="form__wrapper">
+    <h2 class="header-text form__title">Остались вопросы?</h2>
+    <form action="" class="form__form" method="post">
+      <fieldset class="form__field callback">
+        <legend class="callback__title callback__title--close">Узнайте подробнее</legend>
+        <ul class="callback__items">
+          <li class="callback__item">
+            <label class="callback__label callback__label--caption form__callback-caption" for="name" >Ваше имя</label>
+            <input  class="callback__input callback__input--text" id="name" type="text" placeholder="Укажите ваше имя" pattern="\S+[A-Za-zА-Яа-яЁё]">
+          </li>
+          <li class="callback__item">
+            <label class="callback__label callback__label--caption form__callback-caption" for="phone-number" >Номер телефона</label>
+            <input class="callback__input callback__input--tel" id="phone-number" type="tel" placeholder="Номер, пожалуйста">
+          </li>
+        </ul>
+        <div class="callback__submit-wrapper">
+          <input class="button button--callback-submit" type="submit"  value="Обратный звонок">
+        </div>
+      </fieldset>
+    </form>
   </div>
 </section>
 
