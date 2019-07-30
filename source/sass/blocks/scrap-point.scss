@@ -1,0 +1,17 @@
+.scrap-point__wrapper {
+  @include container;
+}
+
+.scrap-point_description {
+  line-height: 24px;
+  text-align: justify;
+}
+
+.scrap-point__services {
+  line-height: 24px;
+}
+
+.scrap-point__image {
+  width: 300px;
+  height: 200px;
+}
