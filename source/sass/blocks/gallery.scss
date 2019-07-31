@@ -1,0 +1,40 @@
+.gallery__item {
+  position: relative;
+
+  &::before {
+    position: absolute;
+		content: "";
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		// background-color: #ffffff;
+		// background-image: url(http://randomsite.zzz.com.ua/cabel/img/s8_zoom.png);
+		background-position: center;
+		background-repeat: no-repeat;
+  }
+
+  &:hover .gallery__image {
+    opacity: .2;
+		transition: opacity 0.35s;
+  }
+}
+
+.gallery__image {
+  opacity: 1;
+  transition: opacity 0.35s;
+}
+
+.owl-prev {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.owl-next {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
