@@ -18,7 +18,7 @@ $('.gallery__carousel').owlCarousel({
 	});
 
 $('.popup__gallery').magnificPopup({
-		delegate: '.owl-item:not(.cloned) a',
+		delegate: 'a',
 		type: 'image',
 		removalDelay: 200, //delay removal by X to allow out-animation
 		callbacks: {
