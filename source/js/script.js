@@ -87,4 +87,5 @@
   }
   option();
   offerPayment.addEventListener('change', function() {option();})
+
 })();

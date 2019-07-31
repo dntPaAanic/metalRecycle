@@ -1,6 +1,6 @@
 $('.gallery__carousel').owlCarousel({
 		nav:      true,
-		navText:  ['лево','право'],
+		navText:  ['<img src="img/arrow_left.svg">','<img src="img/arrow_right.svg">'],
 		margin:   10,
 		loop:     true,
 		autoplay: true,
@@ -20,7 +20,7 @@ $('.gallery__carousel').owlCarousel({
 $('.popup__gallery').magnificPopup({
 		delegate: '.owl-item:not(.cloned) a',
 		type: 'image',
-		removalDelay: 500, //delay removal by X to allow out-animation
+		removalDelay: 200, //delay removal by X to allow out-animation
 		callbacks: {
 			beforeOpen: function() {
 				// just a hack that adds mfp-anim class to markup

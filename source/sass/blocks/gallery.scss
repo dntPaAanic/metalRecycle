@@ -1,5 +1,7 @@
 .gallery__item {
   position: relative;
+  border: 1px solid rgba(255, 186, 0, 0.2);
+
 
   &::before {
     position: absolute;
