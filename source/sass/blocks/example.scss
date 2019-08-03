@@ -61,7 +61,7 @@
   height: 100px;
   padding-top: 70px;
 
-  transition: 0.2s;
+  transition: .3s;
   text-align: center;
 
   opacity: 0;
@@ -75,9 +75,6 @@
     border: 3px solid $background-button-color;
     background-color:$background-button-color;
   }
-
-
-
 }
 
 .example__caption {
@@ -102,25 +99,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .example__image {
 
-  }
-
-  .example__item--big {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .example__caption--big {
-    width: 365px;
-  }
-
-  .example__description--big {
-    padding-bottom: 45px;
   }
 }
 

@@ -13,7 +13,7 @@
 .features__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
 
@@ -94,9 +94,8 @@
     display: block;
     width: 280px;
     margin-bottom: 80px;
-    padding-right: 30px;
 
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
 
     &::before {

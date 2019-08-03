@@ -21,3 +21,28 @@
   width: 300px;
   height: 200px;
 }
+
+@media (min-width: $tablet-width) {
+  .scrap-point_description {
+    font-size: 18px;
+  }
+
+  .scrap-point__services {
+    font-size: 18px;
+  }
+
+  .scrap-point__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .scrap-point__text-wrapper {
+    width: 395px;
+  }
+
+  .scrap-point__image-wrapper {
+    margin-top: 75px;
+  }
+
+}
