@@ -1,16 +1,3 @@
 .page-footer__wrapper {
   @include container;
 }
-
-.contact__item-header {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-.contact__item-text {
-  text-decoration: none;
-  font-size: 18px;
-  color: $font-color-main;
-  line-height: 18px;
-  font-weight: 300;
-}

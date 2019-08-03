@@ -1,0 +1,28 @@
+.contacts-map__wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+
+  @include container;
+}
+
+.contacts-map__map-wrapper {
+  height: 420px;
+  margin-bottom: 50px;
+}
+
+.contacts-map__contact-wrapper {
+  margin-bottom: 25px;
+}
+
+.contacts-map__title {
+  margin-top: 0;margin-bottom: 5px;font-size: 14px;
+  }
+
+.contacts-map__description {
+  margin-top: 0;
+}
+
+.contacts-map__email,
+.contacts-map__phone {
+  text-decoration: none;color: $font-color-main;
+  }

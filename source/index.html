@@ -614,12 +614,62 @@
   </div>
 </section>
 
+<section class="contacts-map">
+  <h2 class="visually-hidden">Пункт приема металла на карте Москвы</h2>
+  <div class="contacts-map__wrapper">
+    <div class="contacts-map__map-wrapper">
+      <iframe class="contacts-map__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A0a6f89fab6e07db5e71d24ac48ab62c7342fe54ac384d8d8e9def126f428fc2b&amp;source=constructor" width="100%" height="420" frameborder="0"></iframe>
+    </div>
+    <div class="contacts-map__contact-wrapper">
+      <h3 class="contacts-map__title">Адрес:</h3>
+      <p class="contacts-map__description">г. Москва, ул. Большая Кроссовка 18/1</p>
+      <h3 class="contacts-map__title">Ближайшие станции метро:</h3>
+      <p class="contacts-map__description">Название станции метро</p>
+      <h3 class="contacts-map__title">Эл. почта:</h3>
+      <p class="contacts-map__description">
+        <a class="contacts-map__email" href="mailto:mail@y.ru">
+          mail@y.ru
+        </a>
+      </p>
+      <h3 class="contacts-map__title">Телефон:</h3>
+      <p class="contacts-map__description contacts-map__description--phone">
+        <a class="contacts-map__phone" href="tel:+71231234567">
+        +7 (123) 123-45-67
+      </a>
+    </p>
+    </div>
+  </div>
+</section>
+
+<section class="form">
+  <div class="form__wrapper">
+    <h2 class="header-text form__title">Остались вопросы?</h2>
+    <form action="" class="form__form" method="post">
+      <fieldset class="form__field callback">
+        <legend class="callback__title callback__title--close">Узнайте подробнее</legend>
+        <ul class="callback__items">
+          <li class="callback__item">
+            <label class="callback__label callback__label--caption form__callback-caption" for="name" >Ваше имя</label>
+            <input  class="callback__input callback__input--text" id="name" type="text" placeholder="Укажите ваше имя" pattern="\S+[A-Za-zА-Яа-яЁё]">
+          </li>
+          <li class="callback__item">
+            <label class="callback__label callback__label--caption form__callback-caption" for="phone-number" >Номер телефона</label>
+            <input class="callback__input callback__input--tel" id="phone-number" type="tel" placeholder="Номер, пожалуйста">
+          </li>
+        </ul>
+        <div class="callback__submit-wrapper">
+          <input class="button button--callback-submit" type="submit"  value="Обратный звонок">
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</section>
+
 <footer class="page-footer">
-  <h2 class="visually-hidden">Карта и связь с нами</h2>
+  <h2 class="visually-hidden">Связь с нами</h2>
   <div class="page-footer__wrapper">
     <section class="contact">
-      <h2 class="visually-hidden">Связь с нами</h2>
-      <p class="contact__slogan">Остались вопросы? Свяжитесь с нами</p>
+      <h2 class="contact__slogan visually-hidden">Остались вопросы? Свяжитесь с нами</h2>
       <div class="contact__item-wrapper">
         <article class="contact__item contact__item--call">
           <h4 class="contact__item-header contact__item-header--call">
@@ -647,8 +697,6 @@
         </article>
       </div>
     </section>
-    <div class="page-footer__contacts-map" id="map">
-    </div>
   </div>
 </footer>
 <a class="back-to-top" title="Наверх">&uarr;</a>

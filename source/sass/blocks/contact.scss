@@ -1,9 +1,27 @@
 .contact {
+  margin-bottom: 50px;
+
   text-align: center;
+}
+
+.contact__item-header {
+  margin-bottom: 10px;
+
+  font-size: 16px;
 }
 
 .contact__slogan {
   font-size: 18px;
+}
+
+.contact__item-text {
+  text-decoration: none;
+
+  color: $font-color-main;
+
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 18px;
 }
 
 @media (min-width: $tablet-width) {
