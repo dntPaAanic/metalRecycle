@@ -52,4 +52,10 @@
     width: 250px;
     margin-left: 40px;
   }
+
+  .callback--full-width {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
 }
