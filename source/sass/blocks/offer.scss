@@ -30,7 +30,7 @@
   padding-bottom: 5px;
 
   color: $font-color-header;
-  border-bottom: 2px solid #ff5722;
+  border-bottom: 2px solid $background-button-color;
 
   font-size: 24px;
   font-weight: 400;
@@ -38,11 +38,15 @@
 }
 
 .offer__header--single {
-  border-bottom: 1px solid #ff5722
+  border-bottom: 1px solid $background-button-color
 }
 
 .offer__header--none-border {
   border-bottom: none;
+}
+
+.offer__name--tablet-desktop {
+  display: none;
 }
 
 
@@ -50,7 +54,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
 
-  border-bottom: 1px solid #ff5722;
+  border-bottom: 1px solid $background-button-color;
 
   font-size: 18px;
 }
@@ -68,8 +72,23 @@
 }
 
 @media (min-width: $tablet-width) {
+  .offer__payment {
+    display: none;
+  }
+
   .offer__table {
-    width: 500px;
+    width: 700px;
+  }
+
+  .offer__header--none-border {
+    border-bottom: 2px solid $background-button-color;
+  }
+
+  .offer__name--mobile {
+    display: none;
+  }
+  .offer__name--tablet-desktop {
+    display: block;
   }
 
   .offer__item--disabled {
