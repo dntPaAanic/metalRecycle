@@ -3,7 +3,8 @@
 <meta charset="UTF-8">
 <title>Прием и скупка металлолома</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="preload" href="fonts/opensans.woff2" as="font">
+<link rel="preload" href="fonts/oswaldregular.woff2" as="font">
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,500&display=swap&subset=cyrillic" rel="stylesheet">
 <link rel="stylesheet" href="css/style.min.css">
 <body>
 
@@ -55,7 +56,7 @@
           Повседневная практика показывает, что укрепление и развитие структуры играет важную роль в формировании форм развития. Повседневная практика показывает, что постоянное информационно-пропагандистское обеспечение нашей деятельности играет важную роль в формировании систем массового участия.</p>
       </div>
 
-      <form action="" class="introduce__form" method="post">
+      <form action="handler.php" class="form form__form introduce__form" method="post">
         <fieldset class="introduce__field callback">
           <legend class="callback__title callback__title--close">Узнайте подробнее</legend>
           <ul class="callback__items">
@@ -69,8 +70,12 @@
             </li>
           </ul>
           <div class="callback__submit-wrapper">
-            <input class="button button--callback-submit" type="submit"  value="Обратный звонок">
+            <input class="button button--callback-submit button--submit" type="submit" value="Обратный звонок">
           </div>
+          <div class="result">
+				    <span id="answer"></span>
+				    <span id="loader"></span>
+			    </div>
         </fieldset>
       </form>
     </div>
@@ -530,7 +535,7 @@
         <p class="export-method__cost">1200р</p>
         <p class="export-method__description">Для небольшого объема <br>цветного металла</p>
         <a href="#form-popup" class="button button--callback-submit export-method__button popup">
-          Заказать фургон
+          Заказать&nbsp;фургон
         </a>
       </li>
       <li class="export-method__item">
@@ -541,7 +546,7 @@
         <p class="export-method__weight">до 2.5 тонн</p>
         <p class="export-method__cost">3000р</p>
         <a href="#form-popup" class="button button--callback-submit export-method__button popup">
-          Заказать газель
+          Заказать&nbsp;газель
         </a>
       </li>
       <li class="export-method__item">
@@ -550,7 +555,7 @@
         <p class="export-method__weight">от 3-х до 7-ми тонн</p>
         <p class="export-method__cost">3000р</p>
         <a href="#form-popup" class="button button--callback-submit export-method__button popup">
-          Заказать ломовоз
+          Заказать&nbsp;ломовоз
         </a>
       </li>
       <li class="export-method__item">
@@ -559,7 +564,7 @@
         <p class="export-method__weight">от 8 до 32 кубов</p>
         <p class="export-method__cost">от 3000р до 7000р</p>
         <a href="#form-popup" class="button button--callback-submit export-method__button popup">
-          Заказать контейнер
+          Заказать&nbsp;контейнер
         </a>
       </li>
     </ul>
@@ -760,5 +765,8 @@
 <script src="js/owl.carousel.js"></script>
 <script src="js/jquery.magnific-popup.js"></script>
 <script src="js/carousel.js"></script>
+<script src="js/jquery.maskedinput.js"></script>
+<script src="js/form-validation.js"></script>
+
 </body>
 </html>

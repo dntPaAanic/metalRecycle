@@ -78,7 +78,7 @@
 }
 
 .example__caption {
-  box-sizing: border-box;
+
   padding: 10px;
 
   background-color: $background-color-secondary;
@@ -101,15 +101,16 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
-
-  .example__image {
-
-  }
 }
 
 @media (min-width: $desktop-width) {
   .example__item {
     width: 170px;
+  }
+
+  .example__title {
+
+
   }
 
   .example__button {

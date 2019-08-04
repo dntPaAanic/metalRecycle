@@ -40,6 +40,7 @@
 .export-method__name {
   margin-top: 35px;
 
+
   font-size: 24px;
 }
 
@@ -83,8 +84,33 @@
     height: 82px;
   }
 
+  .export-method__name {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    font-size: 24px;
+  }
+
+  .export-method__weight {
+    margin-top: 0;
+    margin-bottom: 5px;
+
+    font-size: 18px;
+  }
+
+  .export-method__cost {
+    margin-top: 0;
+
+    font-size: 39px;
+  }
+
+  .export-method__description {
+    margin-top: 0;
+  }
+
   .export-method__button {
     font-size: 15px;
+
   }
 }
 
