@@ -32,7 +32,7 @@
   line-height: 30px;
   color: $font-color-main;
 
-  border: 2px solid #607d8b;
+  border: 2px solid $font-color-main;
 
   &:hover {
     border: 2px solid $background-button-color-hover-active;
@@ -55,7 +55,22 @@
 
   .callback--full-width {
     width: 100%;
+  }
+
+  .callback__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .callback__items--flex {
     display: flex;
     flex-direction: row;
   }
+
+  .callback__item--flex {
+    margin-right: 90px;
+  }
+
+
 }

@@ -8,3 +8,14 @@
 .form__callback-caption {
   display: none;
 }
+
+@media (min-width: $tablet-width) {
+  .form__wrapper--full-width {
+    padding: 50px;
+    border: 2px dashed $background-color-secondary;
+  }
+
+  .form__title--full-width {
+    margin-bottom: 25px;
+  }
+}
