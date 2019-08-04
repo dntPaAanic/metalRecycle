@@ -495,9 +495,9 @@
 
 <section class="form">
   <div class="form__wrapper form__wrapper--full-width">
-    <h2 class="header-text form__title--full-width">Остались вопросы?</h2>
+    <h2 class="header-text form__title form__title--full-width">Остались вопросы?</h2>
     <form action="" class="form__form" method="post">
-      <fieldset class="form__field callback--full-width">
+      <fieldset class="form__field callback callback--full-width">
         <legend class="callback__title callback__title--close">Узнайте подробнее</legend>
         <div class="callback__wrapper">
           <ul class="callback__items callback__items--flex">
@@ -529,9 +529,9 @@
         <p class="export-method__weight">от 100кг до 599кг</p>
         <p class="export-method__cost">1200р</p>
         <p class="export-method__description">Для небольшого объема <br>цветного металла</p>
-        <button class="button button--callback-submit export-method__button" type="button"  value="Обратный звонок">
+        <a href="#form-popup" class="button button--callback-submit export-method__button popup">
           Заказать фургон
-        </button>
+        </a>
       </li>
       <li class="export-method__item">
         <img src="img/export-car-2.png" alt="Легковой фургон" class="export-method__image" width="192" height="95">
@@ -672,9 +672,9 @@
 
 <section class="form">
   <div class="form__wrapper form__wrapper--full-width">
-    <h2 class="header-text form__title--full-width">Остались вопросы?</h2>
+    <h2 class="header-text form__title form__title--full-width">Остались вопросы?</h2>
     <form action="" class="form__form" method="post">
-      <fieldset class="form__field callback--full-width">
+      <fieldset class="form__field callback callback--full-width">
         <legend class="callback__title callback__title--close">Узнайте подробнее</legend>
         <div class="callback__wrapper">
           <ul class="callback__items callback__items--flex">
@@ -730,6 +730,30 @@
     </section>
   </div>
 </footer>
+
+<article class="form form--popup mfp-hide" id="form-popup">
+  <div class="form__wrapper">
+    <form action="" class="form__form" method="post">
+      <fieldset class="form__field callback">
+        <legend class="callback__title callback__title--close">Узнайте подробнее</legend>
+        <ul class="callback__items">
+          <li class="callback__item">
+            <label class="callback__label callback__label--caption" for="name-popup" >Ваше имя</label>
+            <input  class="callback__input callback__input--text" id="name-popup" type="text" placeholder="Укажите ваше имя" pattern="\S+[A-Za-zА-Яа-яЁё]">
+          </li>
+          <li class="callback__item">
+            <label class="callback__label callback__label--caption" for="phone-number-popup" >Номер телефона</label>
+            <input class="callback__input callback__input--tel" id="phone-number-popup" type="tel" placeholder="Номер, пожалуйста">
+          </li>
+        </ul>
+        <div class="callback__submit-wrapper">
+          <input class="button button--callback-submit" type="submit"  value="Обратный звонок">
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</article>
+
 <a class="back-to-top" title="Наверх">&uarr;</a>
 <script src="js/script.js"></script>
 <script src="js/jquery-2.2.4.min.js"></script>

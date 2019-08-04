@@ -68,3 +68,9 @@ $('.popup__gallery').magnificPopup({
   			}
   		}
   	});
+
+		// Форма в модальном окне с фокусом на поле Имя
+		$('.popup').magnificPopup({
+		   type: 'inline',
+		   focus: '#name-popup'
+		});
