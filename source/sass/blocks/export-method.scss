@@ -63,6 +63,7 @@
 .export-method__button {
   position: absolute;
   bottom: 0;
+  box-sizing: border-box;
 
   transform: translate(-50%, 0);
 }
@@ -98,9 +99,5 @@
   .export-method__image {
     width: 195px;
     height: 92px;
-  }
-
-  .export-method__button {
-    font-size: 15px;
   }
 }
