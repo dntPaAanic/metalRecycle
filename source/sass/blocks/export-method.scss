@@ -74,7 +74,7 @@
   }
 
   .export-method__item {
-    max-width: 160px;
+    width: 160px;
   }
 
   .export-method__image {
@@ -85,6 +85,22 @@
   .export-method__button {
     font-size: 15px;
   }
+}
 
+@media (min-width: $desktop-width) {
+  .export-method__list {
+    margin-bottom: 50px;
+  }
+  .export-method__item {
+    width: 200px;
+  }
 
+  .export-method__image {
+    width: 195px;
+    height: 92px;
+  }
+
+  .export-method__button {
+    font-size: 15px;
+  }
 }

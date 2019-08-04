@@ -108,7 +108,12 @@
 }
 
 @media (min-width: $desktop-width) {
-  .example__caption--big {
-    width: 630px;
+  .example__item {
+    width: 170px;
+  }
+
+  .example__button {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }

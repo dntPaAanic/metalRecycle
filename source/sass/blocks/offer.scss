@@ -99,3 +99,9 @@
     display: table-cell;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .offer__table {
+    width: 900px;
+  }
+}

@@ -71,6 +71,12 @@
   .callback__item--flex {
     margin-right: 90px;
   }
+}
 
+@media (min-width: $desktop-width) {
+  .callback__item--flex {
+    width: 250px;
+    margin-right: 75px;
+  }
 
 }

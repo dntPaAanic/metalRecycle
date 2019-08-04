@@ -53,3 +53,17 @@
     width: 170px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .contacts-map__map-wrapper {
+    width: 720px;
+  }
+
+  .contacts-map__map {
+    width: 720px;
+  }
+
+  .contacts-map__contact-wrapper {
+    width: 200px;
+  }
+}
