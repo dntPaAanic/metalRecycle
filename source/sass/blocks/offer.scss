@@ -51,6 +51,7 @@
   color: $font-color-table;
 }
 
+
 .offer__item--price {
   color: $font-color-table;
 }
@@ -81,6 +82,10 @@
   &:last-child {
     border-right: none;
   }
+}
+
+.offer__item--header {
+  font-size: 22px;
 }
 
 .offer__item--disabled {
