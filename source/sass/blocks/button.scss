@@ -45,6 +45,10 @@
   text-align: center;
 }
 
+.button--block {
+  display: block;
+}
+
 @media (min-width: $tablet-width) {
   .button--example {
     padding-top: 10px;
@@ -53,7 +57,10 @@
 
   .button--callback-submit {
     width: 100%;
+  }
 
+  .button--block {
+    display: inline;
   }
 }
 
