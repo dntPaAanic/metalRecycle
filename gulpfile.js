@@ -26,7 +26,7 @@ gulp.task("css", function () {
     .pipe(postcss([
       autoprefixer()
     ]))
-    .pipe(csso())
+    //.pipe(csso())
     .pipe(rename("style.min.css"))
     .pipe(sourcemap.write("."))
     .pipe(gulp.dest("build/css"))
@@ -61,7 +61,7 @@ gulp.task("html", function () {
     .pipe(posthtml([
       include()
     ]))
-    .pipe(htmlmin({collapseWhitespace: true}))
+    //.pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest("build"));
 });
 

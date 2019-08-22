@@ -47,6 +47,7 @@
 
 .button--block {
   display: block;
+  width: 85%;
 }
 
 @media (min-width: $tablet-width) {
@@ -61,6 +62,7 @@
 
   .button--block {
     display: inline;
+    width: 100%;
   }
 }
 
