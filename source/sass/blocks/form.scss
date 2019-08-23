@@ -16,6 +16,7 @@
   .form__wrapper--full-width {
     padding: 50px;
     border: 2px dashed $background-color-secondary;
+    box-sizing: border-box;
   }
 
   .form__title--full-width {
